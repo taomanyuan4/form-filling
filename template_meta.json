@@ -1,0 +1,15 @@
+{
+  "template_id": "student_info_form_v1",
+  "fields": [
+    { "field_id": "student.name", "label": "Student Name", "type": "string", "required": true, "latex_macro": "StudentName" },
+    { "field_id": "student.id", "label": "Student ID", "type": "string", "required": true, "latex_macro": "StudentID" },
+    { "field_id": "student.dob", "label": "Date of Birth", "type": "date", "required": false, "latex_macro": "DateOfBirth" },
+    { "field_id": "student.grade", "label": "Grade Level", "type": "string", "required": false, "latex_macro": "GradeLevel" },
+    { "field_id": "student.email", "label": "Email", "type": "string", "required": false, "latex_macro": "Email" },
+    { "field_id": "student.phone", "label": "Phone", "type": "string", "required": false, "latex_macro": "Phone" },
+    { "field_id": "student.address", "label": "Address", "type": "string", "required": false, "latex_macro": "Address" },
+    { "field_id": "guardian.name", "label": "Guardian Name", "type": "string", "required": false, "latex_macro": "GuardianName" },
+    { "field_id": "guardian.contact", "label": "Guardian Contact", "type": "string", "required": false, "latex_macro": "GuardianContact" },
+    { "field_id": "emergency.contact", "label": "Emergency Contact", "type": "string", "required": false, "latex_macro": "EmergencyContact" }
+  ]
+}

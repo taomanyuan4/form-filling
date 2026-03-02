@@ -1,0 +1,44 @@
+% !TEX program = xelatex
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=18mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{tabularx}
+\usepackage{array}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.25}
+
+% -------------------------
+% Auto-generated field macros
+% -------------------------
+\newcommand\Address{}
+\newcommand\DateOfBirth{}
+\newcommand\Email{}
+\newcommand\EmergencyContact{}
+\newcommand\GradeLevel{}
+\newcommand\GuardianContact{}
+\newcommand\GuardianName{}
+\newcommand\Phone{}
+\newcommand\StudentID{}
+\newcommand\StudentName{}
+
+\newcommand{\FormLine}[2]{\rule{0pt}{2.4ex}\underline{\makebox[#1][l]{#2}}}
+
+\begin{document}
+\input{values.tex}
+{\LARGE\bfseries STUDENT INFORMATION FORM}\par
+\vspace{8mm}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}l X @{\hspace{8mm}} >{\bfseries}l X@{}}
+Student Name: & \FormLine{2.39cm}{\StudentName} & Student ID: & \FormLine{1.49cm}{\StudentID} \\
+Date of Birth: & \FormLine{2.31cm}{\DateOfBirth} & Grade Level: & \FormLine{1.28cm}{\GradeLevel} \\
+Email: & \FormLine{2.95cm}{\Email} & Phone: & \FormLine{1.54cm}{\Phone} \\
+Address: & \FormLine{6.22cm}{\Address} &  &  \\
+Guardian Name: & \FormLine{5.58cm}{\GuardianName} &  &  \\
+Guardian Contact: & \FormLine{5.26cm}{\GuardianContact} &  &  \\
+Emergency Contact: & \FormLine{5.10cm}{\EmergencyContact} &  &  \\
+\end{tabularx}
+
+\end{document}

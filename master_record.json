@@ -1,0 +1,27 @@
+{
+  "student_profile": {
+    "full_name": "Maya R. Patel",
+    "preferred_name": "Maya Patel",
+    "student_number": "202401567",
+    "date_of_birth": "2007-05-22",
+    "grade_level": "11",
+    "email_addresses": [
+      { "email": "maya.patel@school.edu", "type": "school", "verified": true },
+      { "email": "maya.patel@gmail.com", "type": "personal", "verified": false }
+    ],
+    "phones": [
+      { "number": "(555) 987-6543", "type": "personal" }
+    ],
+    "addresses": [
+      { "type": "home", "text": "42 Oak Avenue, Anytown, CA 90210" }
+    ]
+  },
+  "guardians": [
+    { "name": "Ravi Patel", "relation": "father", "is_primary": true, "phone": "(555) 234-5678" },
+    { "name": "Anita Patel", "relation": "mother", "is_primary": false, "phone": "(555) 876-5432" }
+  ],
+  "emergency_contacts": [
+    { "name": "Priya Sharma", "relation": "aunt", "phone": "(555) 111-2222" }
+  ]
+}
+

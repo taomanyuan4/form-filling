@@ -1,0 +1,58 @@
+{
+  "template_id": "faculty_activity_form_v1",
+  "data_source": "master_record.json",
+  "llm_provider": "LMStudioProvider",
+  "llm_base_url": "http://127.0.0.1:1234/v1",
+  "llm_model": "qwen2.5-7b-instruct",
+  "filled_values": {
+    "instructor.name": {
+      "value": "Dr. Alex Morgan",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    },
+    "employee.id": {
+      "value": "T20230988",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    },
+    "teaching.primary_course": {
+      "value": "",
+      "confidence": 0.0,
+      "source": "candidate_data",
+      "need_confirm": true,
+      "reason": ""
+    },
+    "office.location": {
+      "value": "Building A, Room 403",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    },
+    "responsibilities.summary": {
+      "value": "Undergraduate teaching (3 classes), Curriculum development for AI track, Student supervision (5 projects)",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    },
+    "emergency.name": {
+      "value": "Jamie Morgan",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    },
+    "emergency.phone": {
+      "value": "555-222-8899",
+      "confidence": 1.0,
+      "source": "candidate_data",
+      "need_confirm": false,
+      "reason": ""
+    }
+  }
+}

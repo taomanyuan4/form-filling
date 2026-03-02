@@ -1,0 +1,168 @@
+{
+  "page": {
+    "w": 1024,
+    "h": 768
+  },
+  "fields": [
+    {
+      "label": "Student Name",
+      "label_bbox": [
+        60.0,
+        110.0,
+        200.0,
+        135.0
+      ],
+      "value_bbox": [
+        220.0,
+        110.0,
+        520.0,
+        135.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Student ID",
+      "label_bbox": [
+        560.0,
+        110.0,
+        650.0,
+        135.0
+      ],
+      "value_bbox": [
+        660.0,
+        110.0,
+        940.0,
+        135.0
+      ],
+      "col": "right"
+    },
+    {
+      "label": "Date of Birth",
+      "label_bbox": [
+        60.0,
+        155.0,
+        220.0,
+        180.0
+      ],
+      "value_bbox": [
+        230.0,
+        155.0,
+        520.0,
+        180.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Grade Level",
+      "label_bbox": [
+        560.0,
+        155.0,
+        690.0,
+        180.0
+      ],
+      "value_bbox": [
+        700.0,
+        155.0,
+        940.0,
+        180.0
+      ],
+      "col": "right"
+    },
+    {
+      "label": "Email",
+      "label_bbox": [
+        60.0,
+        200.0,
+        140.0,
+        225.0
+      ],
+      "value_bbox": [
+        150.0,
+        200.0,
+        520.0,
+        225.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Phone",
+      "label_bbox": [
+        560.0,
+        200.0,
+        640.0,
+        225.0
+      ],
+      "value_bbox": [
+        650.0,
+        200.0,
+        940.0,
+        225.0
+      ],
+      "col": "right"
+    },
+    {
+      "label": "Address",
+      "label_bbox": [
+        60.0,
+        250.0,
+        150.0,
+        275.0
+      ],
+      "value_bbox": [
+        160.0,
+        250.0,
+        940.0,
+        275.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Guardian Name",
+      "label_bbox": [
+        60.0,
+        320.0,
+        220.0,
+        345.0
+      ],
+      "value_bbox": [
+        240.0,
+        320.0,
+        940.0,
+        345.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Guardian Contact",
+      "label_bbox": [
+        60.0,
+        365.0,
+        260.0,
+        390.0
+      ],
+      "value_bbox": [
+        280.0,
+        365.0,
+        940.0,
+        390.0
+      ],
+      "col": "left"
+    },
+    {
+      "label": "Emergency Contact",
+      "label_bbox": [
+        60.0,
+        410.0,
+        280.0,
+        435.0
+      ],
+      "value_bbox": [
+        300.0,
+        410.0,
+        940.0,
+        435.0
+      ],
+      "col": "left"
+    }
+  ]
+}
